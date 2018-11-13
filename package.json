@@ -1,0 +1,27 @@
+{
+  "name": "vue_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "dev_": "webpack-dev-server --devtool eval-source-map --progress --colors --hot --inline --content-base ./dist",
+    "build": "webpack"
+  },
+  "author": "LsmTxx",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-dev-server-output": "0.0.6"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server-output": "0.0.6"
+  }
+}
